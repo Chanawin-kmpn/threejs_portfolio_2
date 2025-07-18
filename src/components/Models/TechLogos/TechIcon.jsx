@@ -19,7 +19,7 @@ const TechIcon = ({ model }) => {
 		<Canvas>
 			<ambientLight intensity={0.3} />
 			<directionalLight position={[5, 5, 5]} intensity={1} />
-			<Environment preset="city" />
+			<Environment preset="city" files="potsdamer_platz_1k.hdr" />
 
 			<OrbitControls enableZoom={false} />
 
